@@ -31,13 +31,13 @@ export class CategoryFormComponent implements OnInit, AfterContentChecked {
     private formBuilder: FormBuilder
   ) { }
 
-  ngOnInit(): void {
+  ngOnInit(): void {        
     this.setCurrentAction();
     this.buildCategoryForm();
     this.loadCategory();
   }
 
-  ngAfterContentChecked(): void {
+  ngAfterContentChecked(): void {    
     this.setPageTitle();
   }
 
